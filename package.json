@@ -1,24 +1,36 @@
 {
-  "name": "koop-provider-public-google-sheets",
-  "version": "0.1.0",
-  "description": "An opinionated provider template for koop-cli",
-  "main": "src/index.js",
-  "scripts": {
-    "test": "mocha 'test/**/*.test.js'",
-    "start": "koop serve"
-  },
-  "dependencies": {
-    "config": "^3.1.0"
-  },
-  "devDependencies": {
-    "@koopjs/cli": "^0.4.0",
-    "chai": "^4.2.0",
-    "mocha": "^6.1.4"
-  },
-  "repository": "",
-  "keywords": [
-    "koop",
-    "plugin",
-    "provider"
-  ]
+	"name": "koop-provider-public-google-sheets",
+	"version": "0.1.0",
+	"description": "A Koop provider to transform public Google Spreadsheets to a Feature Service",
+	"main": "src/index.js",
+	"scripts": {
+		"test": "mocha 'test/**/*.test.js'",
+		"start": "koop serve"
+	},
+	"dependencies": {
+		"config": "^3.1.0",
+		"request": "^2.79.0"
+	},
+	"devDependencies": {
+		"@koopjs/cli": "^0.4.0",
+		"chai": "^4.2.0",
+		"mocha": "^6.1.4"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:esri-es/koop-provider-public-google-sheets.git"
+	},
+	"keywords": [
+		"koop",
+		"plugin",
+		"provider",
+		"google",
+		"spreadsheets"
+	],
+	"author": "Raul Jimenez <raul.jimenez@esri.es>",
+	"homepage": "https://github.com/esri-es/koop-provider-public-google-sheets",
+	"bugs": {
+		"url": "https://github.com/esri-es/koop-provider-public-google-sheets/issues"
+	},
+	"license": "Apache-2.0"
 }
