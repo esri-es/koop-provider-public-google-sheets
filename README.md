@@ -1,22 +1,12 @@
-# koop-cli-new-project
+# koop-provider-public-google-sheets
 
-A minimal Koop project template from [Koop CLI](https://github.com/koopjs/koop-cli).
-
-See the [specification](https://koopjs.github.io/docs/usage/koop-core) for more details.
+Unlike [this provider](https://github.com/koopjs/koop-provider-google-sheets), it does not need to set up any Google keys to access Google Sheets data as it is feed from public spreadsheets.
 
 ## Configuration
 
-This project is configured with [config](https://www.npmjs.com/package/config). As a community practice, it is recommanded to namespace the configuration for plugins in order to avoid any potential key conflict.
+No need
 
 ## Development
-
-### Testing
-
-This project uses [mocah](https://www.npmjs.com/package/mocha) as the testing framework and [chaijs](https://www.chaijs.com/) as the assertion library. All test files in the `test` directory should have the special extension `.test.js`, which will be executed by the command:
-
-```
-$ npm test
-```
 
 ### Dev Server
 
